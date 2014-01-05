@@ -1,0 +1,273 @@
+
+    <title>Chris Hill Web Developer</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="stylesheets/css/main.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/chlogo.png">
+
+    <!-- Add custom CSS here -->
+    <link href="stylesheets/css/chonline.css" rel="stylesheet">
+    <link href="stylesheets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <!-- Side Menu -->
+    <a id="menu-toggle" href="#" class="btn btn-primary btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <div id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+        <a id="menu-close" href="#" class="btn btn-default btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+        <li class="sidebar-brand"><h4 style="color:#FFFFFF">Chris Hill Online</h4></li>
+        <li><a href="#top">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">My Skills</a></li>
+        <li><a href="#portfolio">Recent Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#social">Social links</a></li>
+      </ul>
+    </div>
+    <!-- /Side Menu -->
+  
+    <!-- Full Page Image Header Area -->
+    <div id="top" class="header">
+      <div class="vert-text">
+        <h1 style="font-size: 33px; color:#000000; background-color:#FFFFFF; padding: 15px"><%= yield %> and welcome to my<br><em> Profesional Profile</em><br>Chris Hill Online</h1>
+<!--         <h3 style="font-size: 40px; color:#000000"><em>and</em> Welcome to <em>my</em> profesional profile</h3>
+        <h4 style="font-size: 25px; color:#000000">Chris Hill Online</h4> -->
+        <a style= "margin-top: 15px; background-color: #f6971e; color: #FFFFFF" href="#about" class="btn btn-default btn-lg">Find Out More</a>
+      </div>
+    </div>
+    <!-- /Full Page Image Header Area -->
+  
+    <!-- Intro -->
+    <div id="about" class="intro">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 text-center">
+            <h3>I am a web developer from York, currently taking a twelve week course in London with Makers Academy. My website contains details on projects I have worked on in the past and working on currently</h3>
+            <p class="lead">chris@chrishillonline.com</p>
+            <p class="lead">07540706728</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Intro -->
+  
+    <!-- Services -->
+    <div id="services" class="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-md-offset-4 text-center">
+            <h2>My Skills</h2>
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-2 col-md-offset-2 text-center">
+            <div class="service-item">
+              <i> <img src="img/page_ruby_128.png"></i>
+              <h4>Ruby on Rails</h4>
+              <p>Building aplications in Ruby. Some of my ruby code is on Github. I am familiar with the Rails and Sinatra frameworks and have built aplications on both and deployed them to the web using Heroku</p>
+            </div>
+          </div>
+          <div class="col-md-2 text-center">
+            <div class="service-item">
+              <i> <img src="img/page_html_128.png"></i>
+              <h4>HTML 5 & CSS 3</h4>
+              <p>Creating responsive, retina-ready sites for mobiles, tablets and widescreen using the latest HTML5 features. I optimize my sites to reduce page size, load times and bounce rates.</p>
+            </div>
+          </div>
+
+          <div class="col-md-2 text-center">
+            <div class="service-item">
+              <i> <img src="img/page_javascript_128.png"></i>
+              <h4>Javascript & jQuery</h4>
+              <p>Using Javascript and jQuery for front end development and Javascript as a Object-Oriented language to add functions to websites and Applications</p>
+            </div>
+          </div>
+
+          <div class="col-md-2 text-center">
+            <div class="service-item">
+              <i> <img src="img/sql_128.png"></i>
+              <h4>SQL</h4>
+              <p>Ruby on Rails applications which work alongside SQL database. I have built these using Postgres and Datamapper</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Services -->
+
+    <!-- Callout -->
+    <div class="callout">
+      <div class="vert-text">
+        <h1 style="font-size: 33px; color:#000000; background-color:#FFFFFF; padding: 15px">Keep scroling to<br><em>check out some of</em><br>my recent projects</h1>
+
+      </div>
+    </div>
+    <!-- /Callout -->
+
+    <!-- Portfolio -->
+    <div id="portfolio" class="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-md-offset-4 text-center">
+            <h2>Recent Work</h2>
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-md-offset-2 text-center">
+            <div class="portfolio-item">
+              <img class="img-portfolio img-responsive" src="img/makers.jpeg">
+              <!-- <h4>Cityscape</h4> -->
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="portfolio-item">
+              <!-- <a href="#"><img class="img-portfolio img-responsive" src="img/portfolio-2.jpg"></a> -->
+              <h3>Makers Academy</h3>
+              <p class="lead" style="font-size: 18px"><a target="blank" href='http://www.makersacademy.com/'>Web development course</a> - a 12-week coding bootcamp, which takes people from zero experience to junior-developer level. The course covers Ruby, TDD, Rails, JavaScript, responsive design & realtime technologies.</p>
+          <p class="lead" style="font-size: 18px">The course has been covered by <a target="blank" href='http://www.independent.co.uk/student/career-planning/cracking-the-code-what-is-makers-academy-8883921.html'>The Independent</a>, <a target="blank" href='http://www.theguardian.com/technology/2013/oct/14/learn-how-to-code'>The Guardian</a> and <a target="blank" href='http://www.theguardian.com/technology/2013/aug/18/wasted-talent-female-tech-women'>The Observer</a>.</p>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-md-4 col-md-offset-2 text-center">
+            <div class="portfolio-item">
+            <h3>Sudoku Game</h3>
+              <p class="lead" style="font-size: 18px">I was challenged to make a sudoku game written in ruby and built on the Sinatra framework. <a target="blank" href="http://chris-hill-sudoku.herokuapp.com/">Click here!</a> to give it a go!</p>
+               <p class="lead" style="font-size: 18px">You could also have a look at my code <a target="blank" href="https://github.com/chrishill627/web_sudoku">on Github.</a></p>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="portfolio-item">
+              <a href="#"><img class="img-portfolio img-responsive" src="img/sudoku.jpeg"></a>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-md-4 col-md-offset-2 text-center">
+            <div class="portfolio-item">
+              <a href="#"><img class="img-portfolio img-responsive" src="img/bookworm.jpg"></a>
+              <!-- <h4>Cityscape</h4> -->
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="portfolio-item">
+              <!-- <a href="#"><img class="img-portfolio img-responsive" src="img/portfolio-2.jpg"></a> -->
+              <h3>Bookmark Manager</h3>
+                 <p class="lead" style="font-size: 18px">Bookmark manager is a simple aplication to manage web bookmarks. It covers Postgres, Datamapper gem, password salting and front end development<a target="blank" href="#"> Click here!</a> and give it a try!!</p>
+               <p class="lead" style="font-size: 18px">My code is <a target="blank" href="https://github.com/chrishill627/bookmark_manager">on Github.</a></p>
+            </div>
+          </div>
+        </div>
+        <hr>
+
+        <!-- <div class="row">
+          <div class="col-md-4 col-md-offset-2 text-center">
+            <div class="portfolio-item">
+              <a href="#"><img class="img-portfolio img-responsive" src="img/portfolio-1.jpg"></a> -->
+
+              <!-- <h4>Cityscape</h4> -->
+
+            <!-- </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="portfolio-item"> -->
+              <!-- <a href="#"><img class="img-portfolio img-responsive" src="img/portfolio-2.jpg"></a> -->
+<!--               <h3>Codewars!!</h3>
+            </div>
+          </div>
+        </div> -->
+        <!-- paste lines 162 to 176 above to add extra rows
+      </div>
+    </div>
+    <!-- /Portfolio -->
+
+    <!-- Call to Action -->
+    <div id="contact" class="call-to-action">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 text-center">
+            <h3>How to get in touch!</h3>
+            <a href"tel:+447540706728" class="btn btn-lg btn-default">Call<br><em>07540706728</em></a>
+            <a href="mailto:chris@chrishillonline.com?Subject=Hi!" target="_top" class="btn btn-lg btn-primary">E-mail<br>chris@chrishillonline.com</a>
+            <h4>May be "see you around!" I frequenly update my location</h4>
+            <p style=""><em>Last updated 4th Janruary 2013</em></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Call to Action -->
+
+    <!-- Map -->
+    <!-- http://designshack.net/articles/html/embedding-google-maps-into-a-web-page-a-beginners-guide/ -->
+    <div class="map">
+      <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.uk/maps?q=makers+academy&amp;ie=UTF8&amp;hq=makers+academy&amp;hnear=&amp;radius=15000&amp;ll=51.523075,-0.087157&amp;spn=0.006295,0.006295&amp;t=m&amp;output=embed"></iframe><br /><small><a href="https://maps.google.co.uk/maps?q=makers+academy&amp;ie=UTF8&amp;hq=makers+academy&amp;hnear=&amp;radius=15000&amp;ll=51.523075,-0.087157&amp;spn=0.006295,0.006295&amp;t=m&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+    </div>
+    <!-- /Map -->
+    
+    <!-- Footer -->
+    <footer>
+      <div id="social" class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 text-center">
+            <ul class="list-inline">
+              <li><a href="https://github.com/chrishill627" target="blank"><img src="img/github_alt.png" style="width: 50px; height: 50px"></a></li>
+              <li><a href="#" target="blank"><img src="img/linkedin_alt.png" style="width: 50px; height: 50px"></a></li>
+              <li><a href="#" target="blank"><img src="img/twitter_alt.png" style="width: 50px; height: 50px"></a></li>
+              <li><a href="#" target="blank"><img src="img/google.png" style="width: 50px; height: 50px"></a></li>
+            </ul>
+            <div class="top-scroll">
+              <a href="#top"><i class="fa fa-circle-arrow-up scroll fa-4x"></i></a>
+            </div>
+            <hr>
+            <p>Copyright &copy; Chris Hill 2013</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- /Footer -->
+
+    <!-- JavaScript -->
+    <script src="stylesheets/js/jquery-1.10.2.js"></script>
+    <script src="stylesheets/js/main.js"></script>
+
+    <!-- Custom JavaScript for the Side Menu and Smooth Scrolling -->
+    <script>
+        $("#menu-close").click(function(e) {
+            e.preventDefault();
+            $("#sidebar-wrapper").toggleClass("active");
+        });
+    </script>
+    <script>
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#sidebar-wrapper").toggleClass("active");
+        });
+    </script>
+    <script>
+      $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+            || location.hostname == this.hostname) {
+
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+              $('html,body').animate({
+                scrollTop: target.offset().top
+              }, 1000);
+              return false;
+            }
+          }
+        });
+      });
+    </script>
+
+  </body>
+
+</html>
