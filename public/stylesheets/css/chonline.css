@@ -6,6 +6,10 @@ body {
   width: 100%;
 }
 
+.btn-lg {
+  min-width: 250px;
+}
+
 .vert-text {
   display: table-cell;
   vertical-align: middle;
@@ -91,6 +95,8 @@ body {
 }
 
 #sidebar-wrapper.active {
+  background-color: #f6971e;
+  color: #FFFFFF;
   right: 250px;
   width: 250px;
   -webkit-transition: all 0.4s ease 0s;
@@ -98,6 +104,19 @@ body {
   -ms-transition: all 0.4s ease 0s;
   -o-transition: all 0.4s ease 0s;
   transition: all 0.4s ease 0s;
+}
+
+#sidebar-wrapper.active a {
+  color: #FFFFFF;
+}
+
+#sidebar-wrapper.active a:hover {
+  background-color: #95d2e1;
+  color: #000000;
+}
+
+#sidebar-wrapper.active .btn {
+  color: #000000;
 }
 
 .toggle {
@@ -126,10 +145,14 @@ body {
 
 /* Services */
 
-.services {
+.skills {
   background: #95d2e1;
   padding: 50px 0;
   color: #ffffff;
+}
+
+.skills p {
+  font-size: 22px;
 }
 
 .service-item {
