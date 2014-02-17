@@ -5,29 +5,43 @@
     <link rel="shortcut icon" href="img/chlogo.png">
     <link href="stylesheets/css/chonline.css" rel="stylesheet">
     <link href="stylesheets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <meta name="viewport" content="initial-scale=1 maximum-scale=1">
   </head>
 
   <body>
 
-    <a id="menu-toggle" href="#" class="btn btn-primary btn-lg toggle"><i class="fa fa-bars"></i></a>
-    <div id="sidebar-wrapper">
-      <ul class="sidebar-nav">
-        <a id="menu-close" href="#" class="btn btn-default btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-        <li class="sidebar-brand"><h4 style="color:#FFFFFF">Chris Hill Online</h4></li>
-        <li><a href="#top">Home</a></li>
+    <div class="masthead">
+      <ul class="nav nav-justified navbar-fixed-top">
+        <li class="active"><a href="#top">Home</a></li>
         <li><a href="#about">About</a></li>
-        <li><a href="#services">My Skills</a></li>
-        <li><a href="#portfolio">Recent Work</a></li>
+        <li><a href="#skills">My Skills</a></li>
+        <li><a href="#current">Current Work</a></li>
+        <li><a href="#recent">Recent Work</a></li>
         <li><a href="#contact">Contact</a></li>
         <li><a href="#social">Social links</a></li>
-        <li><a href="/blog">Blog</a></li>
+      </ul>
+    </div>
+
+    <a id="menu-toggle" href="#" class="btn btn-primary btn-sm toggle"><i class="fa fa-bars"></i></a>
+    <div id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+        <a id="menu-close" href="#" class="btn btn-default btn-sm pull-right toggle"><i class="fa fa-times"></i></a>
+        <li class="sidebar-brand"><h4 style="color:#FFFFFF">Chris Hill On-line</h4></li>
+        <li><a href="#top">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">My Skills</a></li>
+        <li><a href="#current">Current Work</a></li>
+        <li><a href="#recent">Recent Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#social">Social links</a></li>
       </ul>
     </div>
   
     <div id="top" class="header">
       <div class="vert-text">
-        <h1 style="font-size: 33px; color:#000000; background-color:#FFFFFF; padding: 15px"><%= greeting %> and welcome to my<br><em> Professional Profile</em><br>Chris Hill Online</h1>
+        <h1 style="font-size: 33px; color:#000000; background-color:#FFFFFF; padding: 15px"><%= greeting %> and welcome to my<br><em> Professional Profile</em><br>Chris Hill On-line<br>
         <a style= "margin-top: 15px; background-color: #f6971e; color: #FFFFFF" href="#about" class="btn btn-default btn-lg">Find Out More</a>
+        </h1>
       </div>
     </div>
 
@@ -35,15 +49,15 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-md-offset-3 text-center">
-            <h3>I am a web developer from York, currently taking a twelve week course in London with Makers Academy. My website contains details on projects I have worked on in the past and working on currently</h3>
-            <p class="lead">chris@chrishillonline.com</p>
+            <h3>I am a Ruby on Rails and Front end Developer originally from York, currently working on freelance projects and looking for a full time junior role in London. My website contains details on projects I have worked on in the past and working on currently</h3>
+            <p class="lead">chrishillonline@gmail.com</p>
             <p class="lead">07540706728</p>
           </div>
         </div>
       </div>
     </div>
 
-    <div id="skills" class="services">
+    <div id="skills" class="services" id="skills">
       <div class="container">
         <div class="row">
           <div class="col-md-4 col-md-offset-4 text-center">
@@ -52,34 +66,40 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-2 col-md-offset-2 text-center">
+          <div class="col-md-2 col-md-offset-1 text-center">
             <div class="service-item">
               <i> <img src="img/page_ruby_128.png"></i>
               <h4>Ruby on Rails</h4>
-              <p>Building aplications in Ruby. Some of my ruby code is on Github. I am familiar with the Rails and Sinatra frameworks and have built aplications on both and deployed them to the web using Heroku</p>
+              <p>Building applications in Ruby. Some of my ruby code is on Git hub. I am familiar with the Rails and Sinatra frameworks and have built applications on both and deployed them to the web using Heroku and Postgres SQL</p>
+            </div>
+          </div>
+          <div class="col-md-2 text-center">
+            <div class="service-item">
+              <i> <img src="img/shield_128.png"></i>
+              <h4>RSPEC and Capybara testing</h4>
+              <p>Test and Behavior driven development was majorly drilled into us at Makers Academy, and with good reason! I Preform integration tests with rspec and capybara in order to ensure functionality and stability especially as web applications evolve and grow.</p>
             </div>
           </div>
           <div class="col-md-2 text-center">
             <div class="service-item">
               <i> <img src="img/page_html_128.png"></i>
               <h4>HTML 5 & CSS 3</h4>
-              <p>Creating responsive, retina-ready sites for mobiles, tablets and widescreen using the latest HTML5 features. I optimize my sites to reduce page size, load times and bounce rates.</p>
+              <p>Creating responsive, retina-ready sites for mobiles, tablets and wide screen using the latest HTML5 features. I optimize my sites to reduce page size, load times and bounce rates.</p>
             </div>
           </div>
-
           <div class="col-md-2 text-center">
             <div class="service-item">
               <i> <img src="img/page_javascript_128.png"></i>
-              <h4>Javascript & jQuery</h4>
-              <p>Using Javascript and jQuery for front end development and Javascript as a Object-Oriented language to add functions to websites and Applications</p>
+              <h4>Java Script & jQuery</h4>
+              <p>Using Java script and jQuery for front end development and Java Script as a Object-Oriented language to add functions to websites and Applications</p>
             </div>
           </div>
 
           <div class="col-md-2 text-center">
             <div class="service-item">
-              <i> <img src="img/sql_128.png"></i>
-              <h4>SQL</h4>
-              <p>Ruby on Rails applications which work alongside SQL database. I have built these using Postgres and Datamapper</p>
+              <i> <img src="img/computer_desktop_128.png"></i>
+              <h4>Version Control <br>& Design work</h4>
+              <p>Version Control on all projects using Git. I have a good understanding of branching and merging.<br><br>Basic computer design skills using Adobe Photoshop and logo design in Fireworks</p>
             </div>
           </div>
           <hr>
@@ -87,29 +107,8 @@
       </div>
     </div>
 
-    <div class=""> <!-- do something here Chris -->
-      <div class="container call-to-action">
-        <div class="row">
-          <div class="col-md-4 col-md-offset-2 text-center">
-            <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
-            <script type="IN/MemberProfile" data-id="http://www.linkedin.com/pub/christopher-hill/89/47b/779" data-format="inline"></script>
-          </div>
 
-          <div class="col-md-4 text-center">
-            <a class="twitter-timeline" href="https://twitter.com/chrishillonline" data-widget-id="423151371756396545">Tweets by @chrishillonline</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-            </script>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-
-
-
-
-    <div id="portfolio" class="portfolio">
+    <div id="recent" class="portfolio">
       <div class="container">
         <div class="row">
           <div class="col-md-4 col-md-offset-4 text-center">
@@ -117,13 +116,60 @@
             <hr>
           </div>
         </div>
+
+                  <div class="row">
+          <div class="col-md-4 col-md-offset-2 text-center">
+            <div class="portfolio-item">
+            <h3>Book Sharing App</h3>
+              <p class="lead" style="font-size: 18px">My final project at Makers Academy was a site to share your favorite three books with Twitter. I used the Amazon and Twitter API's to get the data i needed and built a great looking mobile page with swipe control. I worked as part of a small team which really helped improve my project collaboration skills using Git branching an version control.<br> The site is up and running and on the first day it was visited by over 300 people on the first day! Why not <a target="blank" href="http://www.dogearedpages.me/">Give it a go!.</a> </p>
+               <p class="lead" style="font-size: 18px">See my code on <a target="blank" href="https://github.com/TomGroombridge/book_project">Github.</a></p>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="portfolio-item">
+              <a href="#"><img class="img-portfolio img-responsive" src="img/books2.jpg"></a>
+            </div>
+          </div>
+        </div>
         <div class="row">
           <div class="col-md-3 col-md-offset-2 text-center">
             <div class="portfolio-item">
-              <img class="img-portfolio img-responsive" src="img/makers.jpeg">
+              <img class="img-portfolio img-responsive" src="img/christagram.jpg">
             </div>
           </div>
-          <div class="col-md-3 text-center">
+          <div class="col-md-4 text-center">
+            <div class="portfolio-item">
+              <h3>Christagram!</h3>
+              <p class="lead" style="font-size: 18px"><a target="blank" href="http://alexpeattie.com/">Alex Peattie </a>set us the task of making an instagram clone with ruby on rails. I used paperclip to upload the photographs and stored them on AWS. You can sign up to the site with an e-mail address or log in using Facebook. I used the Omniauth gem for facebook log in. Christagram is<a target="blank" href="http://christagram.herokuapp.com/"> online here</a> check it out!</p>
+          <p class="lead" style="font-size: 18px">See the code<a target="blank" href="https://github.com/chrishill627/christagram"> on Github</a></p>
+            </div>
+          </div>
+        </div>
+          <!-- http://christagram.herokuapp.com/ -->
+
+
+          <div class="row">
+          <div class="col-md-4 col-md-offset-2 text-center">
+            <div class="portfolio-item">
+            <h3>This Website</h3>
+              <p class="lead" style="font-size: 18px">My portfolio website is built on Sinatra and involves a small ammount of ruby logic, json map api and Twitter Bootstrap. I have made a simple mobile friendly <a target="blank" href="http://en.m.wikipedia.org/wiki/Content_management_system">C-M-S</a> so I can easily update my location, current work and events i am attending from my mobile</p>
+              <p class="lead" style="font-size: 18px">Please <a href="#contact">contact me </a>if you would like a similar website for your own personal profile.</p>
+               <p class="lead" style="font-size: 18px">If you'd like to see my code it is on <a target="blank" href="https://github.com/chrishill627/chris_hill_online">Github.</a></p>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="portfolio-item">
+              <a href="#"><img class="img-portfolio img-responsive" src="img/chonline.png"></a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 col-md-offset-2 text-center">
+            <div class="portfolio-item">
+              <img class="img-portfolio img-responsive" src="img/makers.png">
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
             <div class="portfolio-item">
               <h3>Makers Academy</h3>
               <p class="lead" style="font-size: 18px"><a target="blank" href='http://www.makersacademy.com/'>Web development course</a> - a 12-week coding bootcamp, which takes people from zero experience to junior-developer level. The course covers Ruby, TDD, Rails, JavaScript, responsive design & realtime technologies.</p>
@@ -156,7 +202,7 @@
           <div class="col-md-4 text-center">
             <div class="portfolio-item">
               <h3>Bookmark Manager</h3>
-                 <p class="lead" style="font-size: 18px">Bookmark manager is a simple aplication to manage web bookmarks. It covers Postgres, Datamapper gem, password salting and front end development<a target="blank" href="#"> Click here!</a> and give it a try!!</p>
+                 <p class="lead" style="font-size: 18px">Bookmark manager is a simple application to manage web bookmarks. It covers Postgres, Datamapper gem, password salting and front end development<a target="blank" href="#"> Click here!</a> and give it a try!!</p>
                <p class="lead" style="font-size: 18px">My code is <a target="blank" href="https://github.com/chrishill627/bookmark_manager">on Github.</a></p>
             </div>
           </div>
@@ -173,24 +219,7 @@
             <a href"tel:+447540706728" class="btn btn-lg btn-default">Call<br><em>07540706728</em></a>
             
 
-            <a href="mailto:chris@chrishillonline.com?Subject=Hi!" target="_top" class="btn btn-lg btn-primary">E-mail<br>chris@chrishillonline.com</a>
-            
-
-
-            <form action="/send_simple_message" class="btn btn-lg btn-primary" method='post'>E-mail me your details<br><div class="input-group">
-              <input type="text" class="form-control" placeholder="e-mail address" name='mailaddress'></div></form>
-      
-            <form action="/send_text" class="btn btn-lg btn-default" method='post'>Text me your details<br>
-              <div class="input-group">
-                <input type="text" class="form-control" placeholder="mobile number" name='phonenum'>
-              </div>
-            </form>
-
-
-
-
-
-
+            <a href="mailto:chrishillonline@gmail.com?Subject=Hi!" target="_top" class="btn btn-lg btn-primary">E-mail<br>chrishillonline@gmail.com</a>
 
 
 
@@ -210,9 +239,8 @@
           <div class="col-md-6 col-md-offset-3 text-center">
             <ul class="list-inline">
               <li><a href="https://github.com/chrishill627" target="blank"><img src="img/github_alt.png" style="width: 50px; height: 50px"></a></li>
-              <li><a href="#" target="blank"><img src="img/linkedin_alt.png" style="width: 50px; height: 50px"></a></li>
-              <li><a href="#" target="blank"><img src="img/twitter_alt.png" style="width: 50px; height: 50px"></a></li>
-              <li><a href="#" target="blank"><img src="img/google.png" style="width: 50px; height: 50px"></a></li>
+              <li><a href="http://www.linkedin.com/pub/christopher-hill/89/47b/779" target="blank"><img src="img/linkedin_alt.png" style="width: 50px; height: 50px"></a></li>
+              <li><a href="https://twitter.com/chrishillonline" target="blank"><img src="img/twitter_alt.png" style="width: 50px; height: 50px"></a></li>
             </ul>
             <div class="top-scroll">
               <a href="#top"><i class="fa fa-circle-arrow-up scroll fa-4x"></i></a>

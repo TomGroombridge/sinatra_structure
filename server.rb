@@ -12,6 +12,7 @@ require 'twilio-ruby'
         :from => "+441301272034")
     puts sms.from
   end
+  #do not think we need to text
 
 
   def greeting(time = Time.now)

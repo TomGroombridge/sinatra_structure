@@ -16,6 +16,10 @@ body {
   text-align: center;
 }
 
+.navbar-fixed-top {
+  background-color: #ffffff;
+}
+
 .vert-text h1 {
   padding: 0;
   margin: 0;
@@ -191,6 +195,11 @@ i.service-icon {
   padding: 50px 0;
 }
 
+.nav-justified li a:hover {
+  background-color: #f6971e;
+  color: white;
+}
+
 .portfolio-item {
   margin-bottom: 25px;
 }
@@ -205,8 +214,6 @@ i.service-icon {
 
 .call-to-action {
   color: #ffffff;
-  background: #82b2c0;
-  padding: 50px 0;
 }
 
 .call-to-action .btn {
@@ -246,8 +253,15 @@ i.scroll:hover {
 @media (max-width: 768px) {
 	
   .header {
-    /*Can change background for the resposive mobile layout*/
-	/*background: url(../img/office1.jpg) no-repeat center center scroll;*/ 
+  background: none;
+  }
+
+  h1 {
+    font-size: 16px;
+  }
+
+  .masthead {
+    display: none;
   }
 
   .callout {
