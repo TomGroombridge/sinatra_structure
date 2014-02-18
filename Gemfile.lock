@@ -1,17 +1,9 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    builder (3.2.2)
-    jwt (0.1.8)
-      multi_json (>= 1.5)
-    mime-types (2.0)
-    multi_json (1.8.4)
-    newrelic_rpm (3.7.1.182)
     rack (1.5.2)
-    rack-protection (1.5.1)
+    rack-protection (1.5.2)
       rack
-    rest-client (1.6.7)
-      mime-types (>= 1.16)
     shotgun (0.9)
       rack (>= 1.0)
     sinatra (1.4.4)
@@ -19,17 +11,10 @@ GEM
       rack-protection (~> 1.4)
       tilt (~> 1.3, >= 1.3.4)
     tilt (1.4.1)
-    twilio-ruby (3.11.4)
-      builder (>= 2.1.2)
-      jwt (>= 0.1.2)
-      multi_json (>= 1.3.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  newrelic_rpm
-  rest-client
   shotgun
   sinatra
-  twilio-ruby
